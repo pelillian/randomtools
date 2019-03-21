@@ -1,0 +1,3 @@
+[submodule "perfect-terminal/.vim/plugged/vim-airline"]
+	path = perfect-terminal/.vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
