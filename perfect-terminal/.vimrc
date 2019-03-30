@@ -35,6 +35,8 @@ set noshowmode
 set timeoutlen=1000 ttimeoutlen=10
 set nojoinspaces
 
+set autoread
+
 inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
