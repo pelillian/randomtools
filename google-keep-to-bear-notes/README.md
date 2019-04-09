@@ -1,0 +1,7 @@
+Importing from Google Keep
+
+In terminal navigate to the Takeout/Keep/ folder & run this
+`sed -i '' -e 's|<span class="label-name">|<span class="label-name">#|g' *.html`
+
+Replace /path/to with the correct path to these files
+`python /path/to/set_time.py /path/to/Takeout/Keep/*.html`
