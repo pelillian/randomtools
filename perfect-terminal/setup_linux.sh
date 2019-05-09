@@ -8,6 +8,8 @@ cd
 mv ~/.vim ~/.vim-old
 mv ~/.vimrc ~/.vimrc.old
 mv ~/.zshrc ~/.zshrc.old
+mv ~/.tmux.conf ~/.tmux.conf.old
 ln -s ~/git/randomtools/perfect-terminal/.vim ~/.vim
 ln -s ~/git/randomtools/perfect-terminal/.vimrc ~/.vimrc
 ln -s ~/git/randomtools/perfect-terminal/.zshrc ~/.zshrc
+ln -s ~/git/randomtools/perfect-terminal/.tmux.conf ~/.tmux.conf
