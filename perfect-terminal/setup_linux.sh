@@ -18,8 +18,10 @@ ln -s ~/Git/randomtools/perfect-terminal/.tmux.conf ~/.tmux.conf
 if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 echo 'set completion-ignore-case On' >> ~/.inputrc
 
+# Remove trash can from desktop
 gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 
+# Add our custom bashrc append
 cat ~/Git/randomtools/perfect-terminal/append.bashrc >> ~/.bashrc
 
 # Perfect GNOME dock
