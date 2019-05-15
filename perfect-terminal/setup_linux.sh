@@ -22,6 +22,7 @@ gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 
 cat ~/Git/randomtools/perfect-terminal/append.bashrc >> ~/.bashrc
 
+# Perfect GNOME dock
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
