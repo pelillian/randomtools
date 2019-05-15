@@ -20,3 +20,5 @@ echo 'set completion-ignore-case On' >> ~/.inputrc
 
 gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 
+cat ~/Git/randomtools/perfect-terminal/append.bashrc >> ~/.bashrc
+
