@@ -9,10 +9,12 @@ mv ~/.vim ~/.vim-old
 mv ~/.vimrc ~/.vimrc.old
 mv ~/.zshrc ~/.zshrc.old
 mv ~/.tmux.conf ~/.tmux.conf.old
+mv ~/.remote.tmux.conf ~/.remote.tmux.conf.old
 ln -s ~/Git/randomtools/perfect-terminal/.vim ~/.vim
 ln -s ~/Git/randomtools/perfect-terminal/.vimrc ~/.vimrc
 ln -s ~/Git/randomtools/perfect-terminal/.zshrc ~/.zshrc
 ln -s ~/Git/randomtools/perfect-terminal/.tmux.conf ~/.tmux.conf
+ln -s ~/Git/randomtools/perfect-terminal/.remote.tmux.conf ~/.remote.tmux.conf
 
 # Case-insensitive tab completion
 if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
