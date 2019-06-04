@@ -108,3 +108,9 @@ PROMPT='%~${vcs_info_msg_0_} %F{$hostcolor}> %f'
 alias l='ls -lAFh'
 bindkey -v
 
+bindkey "^R" history-incremental-search-backward
+bindkey "^S" history-incremental-search-forward
+
+# disable globbing for pip so that pip install gym[atari] works
+alias pip='noglob pip'
+
