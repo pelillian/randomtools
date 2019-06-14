@@ -6,6 +6,8 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
+" Vim HardTime
+Plug 'takac/vim-hardtime'
 call plug#end()
 
 syntax on
@@ -48,3 +50,7 @@ inoremap <Right> <Nop>
 :  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
+
+set mouse=
+set ttymouse=
+

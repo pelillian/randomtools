@@ -32,3 +32,4 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 gsettings set org.gnome.shell.extensions.dash-to-dock multi-monitor true
 gsettings set org.gnome.desktop.background show-desktop-icons false
 
+sudo apt install htop
