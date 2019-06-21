@@ -54,3 +54,6 @@ inoremap <Right> <Nop>
 set mouse=
 set ttymouse=
 
+" w!! writes to file even if we opened without sudo
+cmap w!! w !sudo tee > /dev/null %
+
