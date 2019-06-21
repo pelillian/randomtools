@@ -57,3 +57,5 @@ set ttymouse=
 " w!! writes to file even if we opened without sudo
 cmap w!! w !sudo tee > /dev/null %
 
+:map <S-z><S-z> <Nop>
+
