@@ -59,3 +59,5 @@ cmap w!! w !sudo tee > /dev/null %
 
 :map <S-z><S-z> <Nop>
 
+set visualbell
+
