@@ -61,6 +61,9 @@ cmap w!! w !sudo tee > /dev/null %
 
 set visualbell
 
+" Keep cursor in middle
+set scrolloff=999
+
 if has('persistent_undo')      "check if your vim version supports it
   set undofile                 "turn on the feature  
   set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
