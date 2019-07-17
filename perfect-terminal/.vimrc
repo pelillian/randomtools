@@ -62,6 +62,8 @@ cmap w!! w !sudo tee > /dev/null %
 set visualbell
 
 " Keep cursor in middle
+"nnoremap j jzz "alternate way of doing it
+"nnoremap k kzz
 augroup VCenterCursor
   au!
   au BufEnter,WinEnter,WinNew,VimResized *,*.*
