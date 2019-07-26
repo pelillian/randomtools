@@ -62,18 +62,26 @@ cmap w!! w !sudo tee > /dev/null %
 set visualbell
 
 " Keep cursor in middle
-"nnoremap j jzz "alternate way of doing it
+set scrolloff=99999
+set scroll=10
+nnoremap <C-U> 10k
+nnoremap <C-D> 10j
+" Alternate way of doing it
+"nnoremap <C-U> 10kzz
+"nnoremap <C-D> 10jzz
+"nnoremap j jzz
 "nnoremap k kzz
-augroup VCenterCursor
-  au!
-  au BufEnter,WinEnter,WinNew,VimResized *,*.*
-        \ let &scrolloff=winheight(win_getid())/2
-augroup END
+"nnoremap # #zz
+"nnoremap * *zz
+"nnoremap n nzz
+"nnoremap N Nzz
+"nnoremap gg ggzz
+"nnoremap G Gzz
+"nnoremap gj gjzz
+"nnoremap gk gkzz
 
 set sidescroll=1
 set sidescrolloff=10
-
-set scroll=10
 
 if has('persistent_undo')      "check if your vim version supports it
   set undofile                 "turn on the feature  
