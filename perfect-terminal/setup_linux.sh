@@ -14,6 +14,8 @@ ln -s ~/Git/randomtools/perfect-terminal/.vimrc ~/.vimrc
 ln -s ~/Git/randomtools/perfect-terminal/.zshrc ~/.zshrc
 ln -s ~/Git/randomtools/perfect-terminal/.tmux.conf ~/.tmux.conf
 
+echo 'source ~/.vimrc' >> ~/.ideavimrc
+
 # Case-insensitive tab completion
 if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 echo 'set completion-ignore-case On' >> ~/.inputrc
