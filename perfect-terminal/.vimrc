@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 " Vim HardTime
 Plug 'takac/vim-hardtime'
+Plug 'tpope/vim-sleuth'
 call plug#end()
 
 syntax on
