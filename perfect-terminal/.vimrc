@@ -4,6 +4,12 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" Remember that because you didn't want to have to separately clone all your
+" plugins, you just pulled the code and deleted the .git folders in each of
+" the plugin folders. This means you have to manually update your plugins by
+" downloading the code & replacing it. If you download a bunch more plugins
+" you should probably fix this.
+
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 " Vim HardTime
@@ -88,4 +94,7 @@ if has('persistent_undo')      "check if your vim version supports it
   set undofile                 "turn on the feature  
   set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
   endif
+
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
 
