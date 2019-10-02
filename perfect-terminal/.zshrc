@@ -120,5 +120,10 @@ export VISUAL=vim
 autoload edit-command-line; zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
 
+# Press enter just once
 bindkey -M menuselect '^M' .accept-line
+
+# fix backspace error
+bindkey "^?" backward-delete-char
+
 
