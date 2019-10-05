@@ -9,20 +9,23 @@ mv ~/.vim ~/.vim-old
 mv ~/.vimrc ~/.vimrc.old
 mv ~/.zshrc ~/.zshrc.old
 mv ~/.tmux.conf ~/.tmux.conf.old
+mv ~/.inputrc ~/.inputrc.old
 ln -s ~/Git/randomtools/perfect-terminal/.vim ~/.vim
 ln -s ~/Git/randomtools/perfect-terminal/.vimrc ~/.vimrc
 ln -s ~/Git/randomtools/perfect-terminal/.zshrc ~/.zshrc
 ln -s ~/Git/randomtools/perfect-terminal/.tmux.conf ~/.tmux.conf
+ln -s ~/Git/randomtools/perfect-terminal/.inputrc ~/.inputrc
 
-# Case-insensitive tab completion
-if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
-echo 'set completion-ignore-case On' >> ~/.inputrc
+echo 'source ~/.vimrc' >> ~/.ideavimrc
 
 # Remove trash can from desktop
 gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 
 # Add our custom bashrc append
 cat ~/Git/randomtools/perfect-terminal/append.bashrc >> ~/.bashrc
+
+# Case-insensitive tab completion
+echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
 
 # Perfect GNOME dock
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
