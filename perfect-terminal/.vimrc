@@ -98,6 +98,9 @@ if has('persistent_undo')      "check if your vim version supports it
   set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
   endif
 
+" Bash-like tab completion for filenames
+set wildmode=longest,list
+
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
 
