@@ -58,9 +58,12 @@ inoremap <Right> <Nop>
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 
-" ctrlp plugin
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-let g:ctrlp_map = '<Space>'
+" CtrlSpace plugin
+set runtimepath^=~/.vim/vim-ctrlspace
+set nocompatible
+set hidden
+let g:CtrlSpaceDefaultMappingKey = "<space> "
+let g:CtrlSpaceUseUnicode = 0
 
 set mouse=
 set ttymouse=
