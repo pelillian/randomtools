@@ -58,6 +58,9 @@ inoremap <Right> <Nop>
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 
+" ctrlp plugin
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 set mouse=
 set ttymouse=
 
