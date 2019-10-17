@@ -59,9 +59,9 @@ inoremap <Right> <Nop>
 :augroup END
 
 " CtrlSpace plugin
-set runtimepath^=~/.vim/vim-ctrlspace
-set nocompatible
 set hidden
+set nocompatible
+set runtimepath^=~/.vim/vim-ctrlspace
 let g:CtrlSpaceDefaultMappingKey = "<space> "
 let g:CtrlSpaceUseUnicode = 0
 
