@@ -64,6 +64,8 @@ set nocompatible
 set runtimepath^=~/.vim/vim-ctrlspace
 let g:CtrlSpaceDefaultMappingKey = "<space> "
 let g:CtrlSpaceUseUnicode = 0
+let g:ctrlspace_save_workspace_on_exit = 1
+let g:ctrlspace_save_workspace_on_switch = 1
 
 set mouse=
 set ttymouse=
