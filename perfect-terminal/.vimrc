@@ -100,7 +100,7 @@ set sidescroll=1
 set sidescrolloff=10
 
 if has('persistent_undo')      "check if your vim version supports it
-  set undofile                 "turn on the feature  
+  set undofile                 "turn on the feature
   set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
   endif
 
@@ -111,4 +111,12 @@ set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
 
 set shiftwidth=0
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=0
+" On pressing tab, insert 4 spaces
+set expandtab
 
