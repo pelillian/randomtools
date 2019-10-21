@@ -18,6 +18,10 @@ ln -s ~/Git/randomtools/perfect-terminal/.inputrc ~/.inputrc
 
 echo 'source ~/.vimrc' >> ~/.ideavimrc
 
+cd ~/Git/randomtools/
+git config submodule.recurse true
+git submodule update --init
+
 # Remove trash can from desktop
 gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 
