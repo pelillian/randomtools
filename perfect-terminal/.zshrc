@@ -126,4 +126,5 @@ bindkey -M menuselect '^M' .accept-line
 # fix backspace error
 bindkey "^?" backward-delete-char
 
+alias pytree="tree -I '__pycache__'"
 

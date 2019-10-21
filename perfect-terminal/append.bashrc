@@ -7,3 +7,5 @@ export VISUAL=vim
 
 stty -ixon
 
+alias pytree="tree -I '__pycache__'"
+
