@@ -7,6 +7,3 @@
 [submodule "perfect-terminal/.vim/plugged/vim-hardtime"]
 	path = perfect-terminal/.vim/plugged/vim-hardtime
 	url = https://github.com/takac/vim-hardtime
-[submodule "perfect-terminal/.vim/plugged/vim-sleuth"]
-	path = perfect-terminal/.vim/plugged/vim-sleuth
-	url = https://github.com/tpope/vim-sleuth
