@@ -28,9 +28,6 @@ gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 # Add our custom bashrc append
 cat ~/Git/randomtools/perfect-terminal/append.bashrc >> ~/.bashrc
 
-# Case-insensitive tab completion
-echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
-
 # Perfect GNOME dock
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
@@ -40,3 +37,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock multi-monitor true
 gsettings set org.gnome.desktop.background show-desktop-icons false
 
 sudo apt install htop
+
+# Case-insensitive tab completion
+echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
+
