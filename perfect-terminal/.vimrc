@@ -118,3 +118,6 @@ set shiftwidth=0
 " On pressing tab, insert 4 spaces
 set expandtab
 
+nnoremap <leader>p oimport pdb; pdb.set_trace()<Esc>
+nnoremap <leader><S-p> Oimport pdb; pdb.set_trace()<Esc>
+
