@@ -64,6 +64,8 @@ let g:CtrlSpaceDefaultMappingKey = "<space> "
 let g:CtrlSpaceUseUnicode = 0
 let g:ctrlspace_save_workspace_on_exit = 1
 let g:ctrlspace_save_workspace_on_switch = 1
+let g:CtrlSpaceSaveWorkspaceOnSwitch = 1
+let g:CtrlSpaceSaveWorkspaceOnExit = 1
 
 set mouse=
 set ttymouse=
