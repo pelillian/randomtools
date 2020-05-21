@@ -9,3 +9,4 @@ stty -ixon
 
 alias pytree="tree -I '__pycache__'"
 
+source ~/Git/cloned/alacritty/extra/completions/alacritty.bash

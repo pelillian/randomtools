@@ -132,3 +132,4 @@ alias pytree="tree -I '__pycache__'"
 setopt noautomenu
 setopt nomenucomplete
 
+fpath+=${ZDOTDIR:-~}/.zsh_functions
