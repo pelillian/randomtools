@@ -1,5 +1,5 @@
-tldfile = 'tlds.txt'
-namefile = '2syllable.txt'
+tldfile = '../data/tlds.txt'
+namefile = '../data/2syllable.txt'
 
 with open(tldfile) as f:
     tlds = [line.rstrip('\n') for line in f]
