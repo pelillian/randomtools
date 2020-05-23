@@ -131,5 +131,3 @@ alias pytree="tree -I '__pycache__'"
 # Make tab completion like vim
 setopt noautomenu
 setopt nomenucomplete
-
-fpath+=${ZDOTDIR:-~}/.zsh_functions
