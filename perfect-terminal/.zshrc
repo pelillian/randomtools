@@ -131,3 +131,6 @@ alias pytree="tree -I '__pycache__'"
 # Make tab completion like vim
 setopt noautomenu
 setopt nomenucomplete
+
+alias kssh="kitty +kitten ssh"
+alias icat="kitty +kitten icat"
