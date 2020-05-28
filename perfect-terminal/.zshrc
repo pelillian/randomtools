@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  [[ -f "~/.bash_profile" ]] && source ~/.bash_profile
+  [[ -e ~/.bash_profile ]] && source ~/.bash_profile
 fi
 
 hostcolor=197
