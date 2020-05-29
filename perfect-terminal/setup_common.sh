@@ -22,3 +22,4 @@ git submodule update --init
 cat ~/Git/randomtools/perfect-terminal/append.bashrc >> ~/.bashrc
 . ~/.bashrc
 
+cd
