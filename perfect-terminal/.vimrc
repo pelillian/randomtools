@@ -4,16 +4,12 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Remember that because you didn't want to have to separately clone all your
-" plugins, you just pulled the code and deleted the .git folders in each of
-" the plugin folders. This means you have to manually update your plugins by
-" downloading the code & replacing it. If you download a bunch more plugins
-" you should probably fix this.
-
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'takac/vim-hardtime'
 call plug#end()
+
+execute pathogen#infect()
 
 syntax on
 set number
