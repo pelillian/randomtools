@@ -135,3 +135,5 @@ setopt nomenucomplete
 alias ssh="kitty +kitten ssh"
 alias icat="kitty +kitten icat"
 alias idiff="kitty +kitten idiff"
+
+alias .="source"
