@@ -133,5 +133,8 @@ alias pytree="tree -I '__pycache__'"
 setopt noautomenu
 setopt nomenucomplete
 
-alias kssh="kitty +kitten ssh"
+alias ssh="kitty +kitten ssh"
 alias icat="kitty +kitten icat"
+alias idiff="kitty +kitten idiff"
+
+alias .="source"
