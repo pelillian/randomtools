@@ -1,0 +1,186 @@
+10x Genomics
+23andMe
+Affirm
+Afiniti
+Age of Learning
+Airbnb
+AirWatch
+AmWINS Group
+AppDirect
+AppDynamics
+Applovin
+Asana
+Auth0
+Automattic
+Away
+Better Place
+Bill.com
+Bird
+Bloom Energy
+Blue Apron
+Box
+Branch Metrics
+Brex
+C3 IoT
+Carta
+Casper
+Chime
+Cloudflare
+CloudKitchens
+Coinbase
+Compass
+Confluent
+Convoy
+Coupa
+Coursera
+Credit Karma
+CrowdStrike
+Databricks
+Dataiku
+Dollar Shave Club
+Domo
+DoorDash
+Dropbox
+Duo Security
+Duolingo
+Epic Games
+Essential Products
+ezCater
+Fab
+Facebook
+Fair
+Fanatics
+Frontline Education
+Gilt Groupe
+Ginkgo Bioworks
+Glossier
+Good Technology
+GoPro
+Groupon
+Grove Collaborative
+Gusto
+HeartFlow
+Hims & Hers
+HomeAway
+Houzz
+Icertis
+Instabase
+Instacart
+Intarcia Therapeutics
+InVision
+IronSource
+Ivalua
+Jasper
+Jet.com
+JFrog
+JUUL Labs
+KeepTruckin
+Knotel
+Legendary Entertainment
+Lending Club
+LinkedIn
+LivingSocial
+Lookout Security
+Lucid Software
+Lyft
+Lynda.com
+Magic Leap
+Marqeta
+MedMen
+Moderna Therapeutics
+Mozido
+Mu Sigma
+MuleSoft
+NantHealth
+NantOmics
+Netskope
+New Relic
+Nextdoor
+Niantic
+Nutanix
+Okta
+One Medical
+Opendoor
+Oscar Health
+Outreach
+PagerDuty
+Palantir Technologies
+PAX Labs
+Peloton
+Pinterest
+Pivotal
+Plaid
+Postmates
+Prometheus Group
+Prosper Marketplace
+Proteus Digital Health
+Pure Storage
+Quora
+Quotient Technology
+Reddit
+Rent the Runway
+RigUp
+Ring
+Rivian
+Robinhood
+Roblox
+Roku
+Root Insurance Co
+Rubicon Global
+Rubrik
+Scale AI
+Seismic Software
+SentinelOne
+Shape Security
+SimpliVity
+Slack Technologies
+SmileDirectClub
+Snap
+Snowflake Computing
+SoFi
+Solstice
+Sonder
+SpaceX
+Sprinklr
+Square
+Squarespace
+Stemcentrx
+Stitch Fix
+StockX
+Stripe
+Sumo Logic
+Sunrun
+SurveyMonkey
+Symphony
+Tanium
+The Honest Company
+ThoughtSpot
+Thumbtack
+Toast
+Tresata
+TripActions
+Turo
+TuSimple
+Twilio
+Twitter
+Uber
+Udacity
+Udemy
+VAST Data
+Vice Media
+Vlocity
+Vonage
+Vox Media
+VTS
+Warby Parker
+Wayfair
+WeWork
+WhatsApp
+Wheels Up
+Wish
+Zenefits
+Zocdoc
+Zoom
+Zoox
+Zulily
+Zynga
