@@ -45,7 +45,9 @@ unicorns = load_list(UNICORNS)
 
 numwords = []
 numsylls = []
+numchars = []
 for name in unicorns:
+    numchars.append(len(name))
     wordlist = name.split()
     numwords.append(len(wordlist))
     syll = 0
@@ -53,13 +55,14 @@ for name in unicorns:
         syll += nsyl(w)
     numsylls.append(syll)
 
-numwords, numsylls = np.array(numwords), np.array(numsylls)
+numwords, numsylls, numchars = np.array(numwords), np.array(numsylls), np.array(numchars)
 
-numwords_hs, numsylls_hs = hist(numwords), hist(numsylls)
+#numwords_hs, numsylls_hs, numchars_hs = hist(numwords), hist(numsylls), hist(numchars)
 
-fig, axs = plt.subplots(ncols=2)
+fig, axs = plt.subplots(ncols=3)
 #sns.barplot(data=numwords_hs[1], x=numwords_hs[0][:-1])
-sns.countplot(numwords, ax=axs[0])
-sns.countplot(numsylls, ax=axs[1])
+sns.countplot(numwords, ax=axs[0]).set(title='Words')
+sns.countplot(numsylls, ax=axs[1]).set(title='Syllables')
+sns.countplot(numchars, ax=axs[2]).set(title='Characters')
 plt.show()
 
